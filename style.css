@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+}
+
+
+/* HEADER */
+
+.page {
+    width: 100%;
+    height: 750px;
+    background-image: url(img/hero.jpg);
+    background-size: cover;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header .menu-bar .logo {
+    float: left;
+    margin-top: 27px;
+}
+
+header .menu-bar .menu {
+    float: right;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+header .menu-bar .logo .titre {
+    list-style: none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header .menu-bar .logo h1 .tld {
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0
+}
+
+header .menu-bar .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header .menu-bar .menu ul li {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+header .menu-bar .menu ul li a {
+    color: #000;
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header .menu-bar .menu a:hover {
+    color: #f47789
+}
+
+.clearfixe {
+    clear: both;
+}
+
+header .presentation {
+    color: #c58fc1;
+    float: left;
+    margin-top: 70px;
+}
+
+header .presentation h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+header .presentation h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 210px;
+}
+
+header .presentation a {
+    text-align: center;
+    background-color: #270e2b;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 50px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    margin-left: 450px;
+}
+
+
+/* SKATE */
+
+div#skate {
+    padding: 100px 0;
+}
+
+div#skate .titre {
+    text-align: center;
+}
+
+div#skate .titre h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+div#skate .ligne1 .item img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+div#skate .ligne2 .item img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+div#skate .ligne1 .item {
+    width: 30%;
+    float: left;
+    margin-right: 3%;
+    margin-top: 30px;
+    text-align: center;
+    background-color: #fff;
+}
+
+div#skate .ligne2 .item {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-right: 3%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+
+div#skate .video {
+    width: 1140px;
+    margin: 0;
+}
+
+
+/*CONTACT*/
+
+
+/*FOOTER*/
+
+footer {
+    width: 100%;
+    height: 105px;
+    padding: 20px;
+    background-color: #535353;
+}
+
+footer .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer p {
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+
+/*MEIDA*/
+
+@media(max-width: 767px) {
+    .page {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+    }
+    .menu-bar {
+        width: 100%;
+    }
+    .logo {
+        width: 100%;
+    }
+    .menu {
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 1388px) {
+    .page {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+    }
+    .menu-bar {
+        width: 100%;
+    }
+    .logo {
+        width: 100%;
+    }
+    .menu {
+        width: 100%;
+    }
+}

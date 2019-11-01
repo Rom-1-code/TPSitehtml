@@ -8,8 +8,9 @@ body {
 .page {
     width: 100%;
     height: 750px;
-    background-image: url(img/Skate.jpg);
+    background-image: url(../IMG/Skate.jpg);
     background-size: cover;
+    margin: 0 auto;
 }
 
 .container {
@@ -70,6 +71,7 @@ header .menu-bar .menu a:hover {
 header .presentation {
     color: #c58fc1;
     float: left;
+    margin: 0 auto;
     margin-top: 70px;
 }
 
@@ -111,6 +113,26 @@ div#skate .titre h1 {
     font-size: 40px;
 }
 
+div#skate .titre2 h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    border: medium solid #000000;
+    width: 50%;
+}
+
+td,
+th {
+    border: thin solid #6495ed;
+    width: 50%;
+}
+
 div#skate .ligne1 .item img {
     width: 100%;
     margin-bottom: 30px;
@@ -126,6 +148,7 @@ div#skate .ligne1 .item {
     float: left;
     margin-right: 3%;
     margin-top: 30px;
+    margin-bottom: 50px;
     text-align: center;
     background-color: #fff;
 }
@@ -135,7 +158,7 @@ div#skate .ligne2 .item {
     float: left;
     text-align: center;
     margin-right: 3%;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 30px;
     background-color: #fff;
 }
@@ -144,9 +167,6 @@ div#skate .video {
     width: 1140px;
     margin: 0;
 }
-
-
-/*CONTACT*/
 
 
 /*FOOTER*/
@@ -181,41 +201,57 @@ footer p {
     }
     header {
         width: 100%;
+        float: none;
     }
     .container {
         width: 100%;
+        float: none;
     }
     .menu-bar {
         width: 100%;
+        float: none;
     }
     .logo {
         width: 100%;
+        float: none;
     }
     .menu {
         width: 100%;
+        float: none;
     }
     footer {
         width: 100%;
+        float: none;
     }
 }
 
 @media(min-width: 768px) and (max-width: 1388px) {
     .page {
         width: 100%;
+        float: none;
     }
     header {
         width: 100%;
+        float: none;
     }
     .container {
         width: 100%;
+        float: none;
     }
     .menu-bar {
         width: 100%;
+        float: none;
     }
     .logo {
         width: 100%;
+        float: none;
     }
     .menu {
         width: 100%;
+        float: none;
+    }
+    footer {
+        width: 100%;
+        float: none;
     }
 }

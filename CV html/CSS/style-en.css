@@ -185,7 +185,6 @@ footer .container {
 footer p {
     font-size: 15px;
     color: #fff;
-    margin-bottom: 0px;
     margin-top: 20px;
 }
 
@@ -196,6 +195,7 @@ footer p {
 
 .français a {
     float: right;
+    margin-top: 10px;
     margin-right: 35px;
     text-transform: uppercase;
 }

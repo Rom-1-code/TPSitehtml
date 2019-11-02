@@ -78,6 +78,7 @@ header .presentation {
 header .presentation h1 {
     font-size: 70px;
     text-transform: uppercase;
+    margin-bottom: 110px;
 }
 
 header .presentation h2 {

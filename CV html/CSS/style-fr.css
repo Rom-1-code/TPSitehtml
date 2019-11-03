@@ -31,6 +31,7 @@ header .menu-bar .logo {
 header .menu-bar .menu {
     float: right;
     font-size: 15px;
+    margin-top: 20px;
 }
 
 header .menu-bar .logo .titre {
@@ -43,7 +44,7 @@ header .menu-bar .logo h1 .tld {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 14px;
     text-transform: uppercase;
-    margin: 0
+    margin: 0;
 }
 
 header .menu-bar .menu ul {

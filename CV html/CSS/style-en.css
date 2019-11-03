@@ -31,7 +31,7 @@ header .menu-bar .logo {
 header .menu-bar .menu {
     float: right;
     font-size: 15px;
-    margin-top: 23px;
+    margin-top: 20px;
 }
 
 header .menu-bar .logo .titre {
@@ -191,11 +191,4 @@ footer p {
 .copyright {
     width: 1100px;
     margin-left: 100px;
-}
-
-.français a {
-    float: right;
-    margin-top: 10px;
-    margin-right: 35px;
-    text-transform: uppercase;
 }

@@ -60,7 +60,7 @@ header .menu-bar .menu ul li a {
     text-transform: uppercase;
 }
 
-header .menu-bar .menu a:hover {
+header .menu-bar .menu b a:hover {
     color: #cd423e
 }
 
@@ -72,13 +72,12 @@ header .presentation {
     color: #ffdaa6;
     float: left;
     margin: 0 auto;
-    margin-top: 93px;
 }
 
 header .presentation h1 {
+    color: #cd423e;
     font-size: 70px;
     text-transform: uppercase;
-    margin-bottom: 45px;
 }
 
 header .presentation h2 {
@@ -87,6 +86,7 @@ header .presentation h2 {
 }
 
 header .presentation .introduction {
+    color: #ffdaa6;
     font-size: 18px;
     margin-bottom: 105px;
 }
